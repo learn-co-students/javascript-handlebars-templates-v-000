@@ -295,7 +295,7 @@ calls the helper, in this case, it will be our issue context object.
 function, if you aren't 100% sure you can safely use the context object.
 
 We use `Handlebars.SafeString` to return a string that contains HTML so
-that HTMl won't get escaped.
+that HTML won't get escaped.
 
 Then it's a simple matter of just wrapping `this.body` inside `strong`
 tags for unclosed issues, and we've created our first Handlebars helper!
