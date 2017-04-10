@@ -325,7 +325,7 @@ Here we've simply replaced `{{body}}` with our helper, `{{comment_body}}`. Now i
 
 We've learned how to use Handlebars templates to render object, and
 collections of objects with the built-in `each` helper. We've made decisions on how to display things
-using the built-in `if` helper, and implemented and registered our own
+using the built-in `if` helper and implemented and registered our own
 custom helper to move logic out of the template.
 
 ## Resources
