@@ -5,7 +5,17 @@
   </head>
   <body>
     <main id="main">
-    </main>
+  <a href="#" onclick="loadIssue();">Load Github Issue</a>
+</main>
+<script id="issue-template" type="text/x-handlebars-template">
+  {{#each this}}
+ <article>
+   <header><h3>Issue #{{number}} ({{state}})</h3></header>
+   <p>{{body}}</p>
+   <footer><a href="{{url}}">created {{created_at}}</a></footer>
+ </article>
+ {{/each}}
+ </script>
     <script src="handlebars.js"></script>
     <script src="issues.js"></script>
     <script src="index.js"></script>
