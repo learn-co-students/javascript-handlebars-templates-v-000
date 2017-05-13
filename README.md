@@ -1,7 +1,7 @@
 JavaScript Handlebars Templates
 ---
 
-## Objectives
+### Objectives
 
 1. Explain how to use Handlebars templates
 2. Describe Handlebars' built-in helpers (`if` and `each`)
