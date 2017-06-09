@@ -11,8 +11,4 @@ describe('index', () => {
     src: fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
   })
   
-
-  it('runs', () => {
-    expect(true).to.be.true
-  })
 })
